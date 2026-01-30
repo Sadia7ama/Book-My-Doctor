@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book My Doctor</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="header">
+  <div class="logo">
+    <img src="Image/logo.png" alt="Book My Doctor Logo">
+  </div>
+
+  <nav class="nav">
+    <a href="#">Home</a>
+    <a href="#">Doctors</a>
+    <a href="#">Hospitals</a>
+    <a href="#">Appointments</a>
+    <a href="#">Contact</a>
+  </nav>
+
+  <button class="cta-btn">Book Now</button>
+</header>
+
+<!-- HERO SECTION -->
+<section class="hero"><img src="Image/hero1.jpg" alt="">
+  <div class="hero-overlay">
+    <h1>Book Your Doctor Appointment Easily</h1>
+    <p>Choose hospital, doctor, date & time in just one click.</p>
+    <button class="hero-btn">Get Started</button>
+  </div>
+</section>
+
+<!-- MAIN CONTENT -->
+<div class="container">
+
+  <!-- SIDEBAR -->
+  <aside class="sidebar">
+    <h3>Services</h3>
+    <ul>
+      <li>Find Doctors</li>
+      <li>Hospital List</li>
+      <li>Book Appointment</li>
+      <li>Health Tips</li>
+    </ul>
+  </aside>
+
+  <!-- CONTENT -->
+  <main class="content">
+
+    <!-- BOOKING FORM -->
+    <div class="booking-box">
+      <h2>Book an Appointment</h2>
+      <form>
+        <label for="patient-name">Patient Name</label>
+        <input type="text" id="patient-name" placeholder="Patient Name" required>
+
+        <label for="hospital">Choose Hospital</label>
+        <select id="hospital" required aria-label="Choose Hospital">
+          <option>Choose Hospital</option>
+        </select>
+
+        <label for="doctor">Choose Doctor</label>
+        <select id="doctor" required aria-label="Choose Doctor">
+          <option>Choose Doctor</option>
+        </select>
+
+        <label for="appointment-date">Appointment Date</label>
+        <input type="date" id="appointment-date" required>
+
+        <label for="time">Choose Time</label>
+        <select id="time" required aria-label="Choose Time">
+          <option>Choose Time</option>
+        </select>
+
+        <button type="submit">Book Appointment</button>
+      </form>
+    </div>
+
+    <!-- INFO CARDS -->
+    <section class="info-cards">
+      <div class="card">
+        <h3>100+ Doctors</h3>
+        <p>Verified specialists from top hospitals.</p>
+      </div>
+
+      <div class="card">
+        <h3>Easy Booking</h3>
+        <p>Quick and simple appointment system.</p>
+      </div>
+
+      <div class="card">
+        <h3>24/7 Support</h3>
+        <p>We are here to help you anytime.</p>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<!-- FOOTER -->
+<footer class="footer">
+  <p>© 2026 Book My Doctor | All Rights Reserved</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
+
+
