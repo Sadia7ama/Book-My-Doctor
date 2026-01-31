@@ -16,7 +16,7 @@
 
   <nav class="nav">
     <a href="#">Home</a>
-    <a href="#">Doctors</a>
+    <a href="doctors.html">Doctors</a>
     <a href="#">Hospitals</a>
     <a href="#">Appointments</a>
     <a href="#">Contact</a>
@@ -57,6 +57,12 @@
       <form>
         <label for="patient-name">Patient Name</label>
         <input type="text" id="patient-name" placeholder="Patient Name" required>
+
+         <!-- ✅ NEW: City Select -->
+        <label for="city">Choose City</label>
+        <select id="city" required>
+          <option value="">Choose City</option>
+        </select>
 
         <label for="hospital">Choose Hospital</label>
         <select id="hospital" required aria-label="Choose Hospital">
@@ -108,7 +114,7 @@
 
 <script src="script.js"></script>
 
-<
+
 </body>
 </html>
 
